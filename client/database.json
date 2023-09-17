@@ -6,7 +6,7 @@
       "title": "All Products",
       "pricecashback": "11.55 Cashback",
       "price": "385.00",
-      "imageURL1": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-2.jpg",
+      "imageURL2": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-2.jpg",
       "img1": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-1.jpg",
       "img2": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-2.jpg",
       "img3": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-3.jpg",
@@ -18,7 +18,7 @@
       "title": "All Products",
       "pricecashback": "11.55 Cashback",
       "price": "652.60",
-      "imageURL1": "https://mh-gnd.cf/wp-content/uploads/2021/08/DynamoPro_ricecity-3.jpg",
+      "imageURL2": "https://mh-gnd.cf/wp-content/uploads/2021/08/DynamoPro_ricecity-3.jpg",
       "img1": "https://mh-gnd.cf/wp-content/uploads/2021/08/DynamoPro_ricecity-1.jpg",
       "img2": "https://mh-gnd.cf/wp-content/uploads/2021/08/DynamoPro_ricecity-5.jpg",
       "img3": "https://mh-gnd.cf/wp-content/uploads/2021/08/DynamoPro_ricecity-3.jpg",
@@ -260,5 +260,56 @@
     }
   ],
   "cartData": [
+    {
+      "id": 4,
+      "name": "Zebronices Wireless BT Headphone With Mic Zeb-Thunder",
+      "title": "All Products",
+      "pricecashback": "11.55 Cashback",
+      "price": "749.00",
+      "imageURL1": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-2.jpg",
+      "imageURL2": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb10kG-2.jpeg ",
+      "img1": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb10kG-3.jpeg",
+      "img2": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb10kG-2.jpeg",
+      "img3": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb10kG-1.jpeg",
+      "img4": ""
+    },
+    {
+      "id": 1,
+      "name": "Lexar 32GB Jump Drive M25 USB 2.0 (Black)",
+      "title": "All Products",
+      "pricecashback": "11.55 Cashback",
+      "price": "385.00",
+      "imageURL2": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-2.jpg",
+      "img1": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-1.jpg",
+      "img2": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-2.jpg",
+      "img3": "https://mh-gnd.cf/wp-content/uploads/2021/08/m25-3.jpg",
+      "img4": ""
+    },
+    {
+      "id": 3,
+      "name": "Zebronices Wireless BT Headphone With Mic Zeb-Thunder",
+      "title": "All Products",
+      "pricecashback": "11.55 Cashback",
+      "price": "749.00",
+      "imageURL1": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-2.jpg",
+      "imageURL2": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-1.jpg",
+      "img1": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-1.jpg",
+      "img2": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-2.jpg",
+      "img3": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-5.jpg",
+      "img4": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-4.jpg"
+    },
+    {
+      "id": 12,
+      "name": "HP v220w 32GB usb 2.0 Flash penDrive",
+      "title": "All Products",
+      "pricecashback": "OUT OF STOCK",
+      "price": "360.00",
+      "imageURL1": "https://mh-gnd.cf/wp-content/uploads/2021/08/zeb-thunder-2.jpg",
+      "imageURL2": "https://mh-gnd.cf/wp-content/uploads/2021/07/32gb_v220w-1.jpg",
+      "img1": "https://mh-gnd.cf/wp-content/uploads/2021/07/32gb_v220w-2.jpg",
+      "img2": "https://mh-gnd.cf/wp-content/uploads/2021/07/32gb_v220w-1.jpg",
+      "img3": "https://mh-gnd.cf/wp-content/uploads/2021/07/32gb_v220w-3.jpg",
+      "img4": ""
+    }
   ]
 }

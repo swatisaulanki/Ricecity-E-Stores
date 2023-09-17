@@ -36,7 +36,7 @@ const Navbar = () => {
           justifyContent={"space-around"}
           // borderBottom={"1px solid black"}
           w={"100%"}
-          bg={"#e7e7e7"}
+          // bg={"#e7e7e7"}
         >
           {/* left side logo */}
           <Link to={"/"}>

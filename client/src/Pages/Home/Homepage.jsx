@@ -31,9 +31,10 @@ const Homepage = () => {
     }
   };
 
-  const handleCart=async()=>{
+  const handleCart=async(ele)=>{
+    console.log(ele)
     try {
-      const response = await axios.post('http://localhost:8000/CartData', products);
+      const response = await axios.post(`http://localhost:8000/CartData`, ele);
       console.log('Response:', response.data);
       alert(`data is added to`)
     } catch (error) {
@@ -52,19 +53,19 @@ const Homepage = () => {
 
   const images = [
     {
-      imageUrl: "https://i.ytimg.com/vi/UGcA1Qch2R8/maxresdefault.jpg",
+      imageUrl: "https://i.pcmag.com/imagery/roundups/05R5IqKUu9t9C6AnT53fynJ-20..v1691785669.png",
     },
     {
-      imageUrl: "./Images/logo3.png",
+      imageUrl: "https://sabezy.com/image/cache/catalog/DeoDap/1423-wired-mouse-for-laptop-and-desktop-computer-pc-with-faster-response-time1692620489-1000x1000.png",
     },
     {
-      imageUrl: "./Images/logo4.png",
+      imageUrl: "https://www.adorama.com/alc/wp-content/uploads/2018/06/shutterstock_654970066-1024x464.jpg",
     },
     {
-      imageUrl: "./Images/logo1.png",
+      imageUrl: "https://c1.wallpaperflare.com/preview/877/955/626/people-woman-headphones-music.jpg",
     },
     {
-      imageUrl: "./Images/logo2.png",
+      imageUrl: "https://media.gettyimages.com/id/1340035186/photo/working-from-home.jpg?s=612x612&w=0&k=20&c=rwji4t6rgHjic4_wkEN2kwAlZ97o7ErGfIFg6X1m05c=",
     },
   ];
   return (
@@ -74,7 +75,7 @@ const Homepage = () => {
         height={["auto","auto","auto","600px"]}
         width={"full"}
         overflow={"hidden"}
-        mt={"10px"}
+        // mt={"10px"}
       >
         {/* CSS files for react-slick */}
         <link
@@ -175,7 +176,7 @@ const Homepage = () => {
               </Link>
               <Box px={"5px"}>
                 <Text noOfLines={1}>{e.name}</Text>
-                <HStack m={"auto"} justifyContent={"space-around"} color={"#E22D4A"}><Text fontWeight={500}><span style={{color:"#E22D4A"}}>₹</span> {e.price}</Text><Button _hover={{ backgroundColor: "#bbd9c1" }} backgroundColor={"#bbd9c1 "} onClick={handleCart} >Add To Cart</Button></HStack>
+                <HStack m={"auto"} justifyContent={"space-around"} color={"#E22D4A"}><Text fontWeight={500}><span style={{color:"#E22D4A"}}>₹</span> {e.price}</Text><Button _hover={{ backgroundColor: "#bbd9c1" }} backgroundColor={"#bbd9c1 "} onClick={()=>{handleCart(e)}} >Add To Cart</Button></HStack>
               </Box>
             </GridItem>
           ))}
